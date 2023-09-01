@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tela de Login</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div id="area-cabecalho">
+
+    <div id="area-logo">
+
+        <img src="img/logo.jpeg" width="250px">
+
+    </div>
+
+
+    <div id="area-menu">
+        <a href="index.jsp">Home</a>
+        <a href="produtos.html">Produtos</a>
+        <a href="quemSomos.html">Quem Somos</a>
+        <a href="registro.html">Registrar</a>
+    </div>
+</div>
+
+    <h1>Registro de Usuario</h1>
+
+    <form action="create-weCoffee" method="post">
+
+
+        <label for="nome">Nome:</label>
+        <input id="nome" name="nome" type="text"><br><br>
+        <input id="id" name="id" type="hidden" value="${param.id} ">
+
+
+        <label for="sobrenome">Sobrenome:</label>
+        <input id="sobrenome" name="sobrenome" type="text"><br><br>
+
+
+        <label for="email">E-mail:</label>
+        <input id="email" name="email" type="email"><br><br>
+
+
+        <label for="cpf">CPF:</label>
+        <input id="cpf" name="cpf" type="text"><br><br>
+
+        <label for="data_nascimento">Data de Nascimento:</label>
+        <input id="data_nascimento" name="data_nascimento" type="date"><br><br>
+
+        <label for="senha">Senha:</label>
+        <input id="senha" name="senha" type="password"><br><br>
+
+        <label for="confirma_senha">Confirme sua senha:</label>
+        <input id="confirma_senha" name="confirma_senha" type="password"><br><br>
+
+
+        <button type="submit">Cadastrar</button>
+
+    </form>
+
+<footer>
+    <p>&copy; 2023 Yalla. Todos os direitos reservados.</p>
+
+</footer>
+
+</body>
+</html>
