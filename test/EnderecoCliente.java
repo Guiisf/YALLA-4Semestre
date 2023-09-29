@@ -1,12 +1,20 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 
 /**
  *
  * @author guilh
  */
-public class EnderecoCliente {
-    
+public class EnderecoCliente extends br.senac.conexaobd.entidades.Cliente {
+
+    private String CEP;
+    private String rua;
+    private String bairro;
+    private String cidade;
+    private String uf;
+    private String complemento;
+    private int numero;
+
+    public EnderecoCliente() {
+
+    }
+
 }
