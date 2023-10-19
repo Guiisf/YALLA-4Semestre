@@ -9,6 +9,7 @@ import br.senac.conexaobd.entidades.EnderecoCliente;
 import br.senac.conexaobd.entidades.Lista;
 import br.senac.conexaobd.entidades.Pedido;
 import br.senac.conexaobd.entidades.Produto;
+import br.senac.conexaobd.servlet.CadastroCarrinhoServlet;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
