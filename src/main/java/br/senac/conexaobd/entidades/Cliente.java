@@ -1,13 +1,17 @@
+package br.senac.conexaobd.entidades;
 
 import java.util.Date;
-
+import lombok.Getter;
+import lombok.Setter;
 
 /**
  *
  * @author guilh
  */
+@Getter
+@Setter
 public class Cliente {
-    
+
     private int id;
     private String nome;
     private String email;
@@ -20,5 +24,4 @@ public class Cliente {
 
     }
 
-    
 }

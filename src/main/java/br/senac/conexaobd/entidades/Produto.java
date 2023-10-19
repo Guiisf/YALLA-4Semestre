@@ -1,6 +1,13 @@
 
 
+package br.senac.conexaobd.entidades;
 
+import lombok.Getter;
+import lombok.Setter;
+
+
+@Getter
+@Setter
 /**
  *
  * @author guilh

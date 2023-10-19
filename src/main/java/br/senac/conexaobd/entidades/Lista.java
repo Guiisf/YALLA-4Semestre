@@ -4,6 +4,8 @@
  *
  * @author guilh
  */
+@lombok.Getter
+@lombok.Setter
 public class Lista {
 
     private int id_pedido;
@@ -18,3 +20,4 @@ public class Lista {
 
     }
 }
+
